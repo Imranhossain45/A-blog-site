@@ -1,0 +1,253 @@
+@font-face {
+	src: url("assets/css/georgia/GEORGIA4.TTF");
+	font-family: "GEORGIA4";
+}
+@font-face {
+	src: url("assets/css/georgia/georgia bold.ttf");
+	font-family: "georgia bold";
+}
+@font-face {
+	src: url("assets/css/georgia/georgia bold italic.ttf");
+	font-family: "georgia bold italic";
+}
+@font-face {
+	src: url("assets/css/georgia/Georgia Regular font.ttf");
+	font-family: "Georgia Regular font";
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+/* header top style start */
+.header-top-violet {
+	width: 100%;
+	height: 10px;
+	background: #894aa3;
+}
+header {
+	margin-bottom: 20px;
+	background: #d0d1d3;
+}
+
+.search-form form input {
+	background: #ececea;
+	position: relative;
+	margin-top: 10px;
+}
+.icon1 {
+	background: white;
+	position: absolute;
+	font-size: 10px;
+	top: 20px;
+	right: 30px;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	line-height: 2;
+	text-align: center;
+	cursor: pointer;
+}
+nav ul li a {
+	color: #7c7d7e;
+	font-size: 23px;
+	font-weight: bold;
+}
+nav ul li a:hover {
+	color: black;
+}
+.drop1 {
+	margin-top: 9px;
+}
+.drop1 a {
+	color: #7c7d7e;
+	font-size: 23px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.drop1 a:hover {
+	color: black;
+}
+nav {
+	padding-right: 0px;
+}
+nav ul li {
+	padding-right: 0;
+}
+.slogan-area {
+	background: #dddddb;
+	padding: 20px;
+	border-top: 5px solid #778147;
+	border-bottom: 5px solid #778147;
+}
+.slogan {
+	text-align: center;
+	font-style: italic;
+	font-family: georgia bold;
+}
+
+/* header top style end */
+/* Slider area style start */
+.slider-area {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 600px;
+	border-bottom: 5px solid #778147;
+}
+.slider-area img {
+	width: 100%;
+	height: 596px;
+}
+
+.carousel-control-prev-icon {
+	border-radius: 50%;
+}
+.carousel-control-next-icon {
+	border-radius: 50%;
+}
+/* Slider area style end */
+/* service area style start */
+.service-area {
+	background: #afd8e9;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 4px solid #aab37d;
+}
+.single-service-box{
+	background: white;
+	margin: 5px;
+	padding-top: 5px;
+	border-radius: 10px;
+}
+.service-desc h3 {
+	color: #55a1be;
+}
+.service-desc h3:hover{
+	font-weight: bolder;
+}
+.service-desc a{
+	text-decoration: none;
+}
+.service-desc p {
+	font-size: 20px;
+	margin-top: 15px;
+}
+/* service area style end */
+/* blog area style start */
+.blog-area {
+	background: #dfdbdb;
+	padding-top: 10px;
+	border-bottom: 5px solid #778147;
+}
+.single-blog {
+	background: white;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 10px;
+}
+.blog-area img {
+	width: 260px;
+	height: 180px;
+}
+.blog-area h3 {
+	color: #cc5f44;
+	
+}
+.blog-area h3:hover{
+font-weight: bolder;
+}
+.blog-area a{
+	text-decoration: none;
+}
+
+.blog-area p {
+	font-size: 20px;
+	margin-top: 15px;
+}
+/* blog area style end */
+/* team area style start */
+.team-area {
+	background: #afd8e9;
+	padding-top: 15px;
+	border-bottom: 5px solid #778147;
+	padding-bottom: 15px;
+}
+.single-team-box {
+	margin : 5px;
+	background: white;
+	border-radius: 10px;
+	
+}
+.team-img img {
+	width: 168px;
+	height: 180px;
+}
+.team-id a {
+	padding-left: 12px;
+	color: black;
+	font-size: 26px;
+	font-weight: bolder;
+	text-decoration: none;
+}
+.team-id a:hover{
+	color: #cc5f44;
+}
+.team-id h5 {
+	font-weight: bolder;
+	padding-left: 12px;
+}
+.team-desc {
+	padding-left: 5px;
+	font-size: 20px;
+}
+.team-desc:last-child {
+	padding-right: 0;
+}
+/* team area style end */
+/* footer area style start */
+.footer-area {
+	background: #d0d1d3;
+	padding-top: 15px;
+	border-bottom: 5px solid #7d8f24;
+}
+.single-footer-box{
+	margin: 10px;
+	background: white;
+	padding: 10px;
+}
+.single-footer-box a{
+	color: black;	
+}
+.single-footer-box a:hover{
+	color: #cc5f44;
+	text-decoration: none;
+}
+.footer-area p {
+	font-size: 20px;
+}
+.footer-area a {
+	font-size: 20px;
+}
+/* footer area style end */
+/* footer area style start */
+.copyright{
+	background: black;
+	padding: 5px;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+.copyright a{
+	text-decoration: none;
+	font-size: 25px;
+	color: #cc5f44;
+}
+.copyright a:hover{
+	font-weight: bold;
+}
+/* footer area style end */
+/* contact area style start */
+.cont-leftside{
+	margin-top: 300px;
+}
+/* footer area style end */
